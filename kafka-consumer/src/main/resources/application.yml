@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: kafka-consumer
+server:
+  port: 8585
+kafka:
+  bootstrapServers: localhost:9093,localhost:9092
+  consumer:
+    topics: mytesttopic
+    groupId: mygroup
