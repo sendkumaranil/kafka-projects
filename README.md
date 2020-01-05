@@ -42,7 +42,7 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
       <li>Login to your okta account</li>
       <li>Go To Application</li>
       <li>Add app name, redirect-url and save</li>
-      <li> copy client-id and secret code</li>
+      <li>copy client-id and secret code</li>
  </ol>
  <p>Open kafka-producer spring boot app</p>
  <p> Add following into to the application.yml file</p>
@@ -61,4 +61,6 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
 		&#60;version>1.3.0&#60;&#47;version&#62;
 	&#60;&#47;dependency&#62;
  </pre>
+ <p>Restart the kafka-producer-secured</p>
  <p>Now run the url on the browser you will redirect the okta login page</p>
+ <p>http://localhost:8282/kafka-producer/send?message=hello kafka</p>
