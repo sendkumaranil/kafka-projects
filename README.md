@@ -53,4 +53,12 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
                 client-id: {your okta client-id}
                 client-secret: {your okta client-secret}
  </pre>
-      
+ <p> Add following okta dependency to pom file</p>
+ <pre>
+            <dependency>
+			<groupId>com.okta.spring</groupId>
+			<artifactId>okta-spring-boot-starter</artifactId>
+			<version>1.3.0</version>
+		</dependency>
+ </pre>
+ <p>Now run the url on the browser you will redirect the okta login page</p>
