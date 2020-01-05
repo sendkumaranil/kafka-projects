@@ -21,8 +21,8 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
       > bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic mytesttopic
 </span>
 <hr/>
-<h4> Start Consumer Spring boot project</h4>
-<h4> Start Producer Spring boot project</h4>
+<h4> Start Consumer Spring boot project::Project: kafka-consumer</h4>
+<h4> Start Producer Spring boot project::Project: kafka-producer</h4>
 
 <h4> Send Messgae</h4>
 <p>cURL Command:</p>
@@ -35,7 +35,7 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
                   }'
 </span>
 <hr/>
-<h4> Secure kafka-producer endpoint with okta oauth2</h4>
+<h4> Secure kafka-producer endpoint with okta oauth2::Project: kafka-producer-secured</h4>
 <p>Prerequisite:</p>
 <ol>
       <li>Create Okta Account <a href="https://developer.okta.com/signup" >here</a></li>
