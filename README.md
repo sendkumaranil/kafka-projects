@@ -6,7 +6,9 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
 <h4> Start Zookeeper:</h4>
 <p>Kafka uses ZooKeeper so you need to first start a ZooKeeper server if you don't already have one. You can use the convenience script packaged with kafka to get a quick-and-dirty single-node ZooKeeper instance.</p>
       <span>
-          > bin/zookeeper-server-start.sh ../config/zookeeper.properties  
+      ```
+          > bin/zookeeper-server-start.sh ../config/zookeeper.properties
+      ```
       </span>
 <hr/>
 <h4> Start Server:</h4>
