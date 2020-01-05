@@ -34,3 +34,23 @@ Kafka Brokers, Kafka-Consumer, Kafka-Producer, Secure Kafka endpoint with Okta O
                         "messages":"Hello World"
                   }'
 </span>
+<hr/>
+<h4> Secure kafka-producer endpoint with okta oauth2</h4>
+<p>Prerequisite:</p>
+<ol>
+      <li>Create Okta Account <a href="https://developer.okta.com/signup" >here</a></li>
+      <li>Login to your okta account</li>
+      <li>Go To Application</li>
+      <li>Add app name, redirect-url and save</li>
+      <li> copy client-id and secret code</li>
+ </ol>
+ <p>Open kafka-producer spring boot app</p>
+ <p> Add following into to the application.yml file</p>
+      ```
+            okta:
+              oauth2:
+                issuer: https://{your-Okta-domain}/oauth2/default
+                client-id: {your okta client-id}
+                client-secret: {your okta client-secret}
+    ```
+      
