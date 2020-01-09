@@ -21,11 +21,11 @@ Kafka Brokers, Order-Service, Shipment-service, Invoice-service
       > bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic order
 </span>
 <hr/>
-<h4> Start Consumer Spring boot project::Project: order-service</h4>
-<h4> Start Producer Spring boot project::Project: -----</h4>
+<h4> Start Producer Spring boot project: order-service</h4>
+<h4> Start Consumer Spring boot project:  ----- </h4>
 
 <h4> Send Message</h4>
-<p>Order-Service will send order creation event to the Kafka :: order topic</p>
+<p>Order-Service will send order creation event to the Kafka topic:: order</p>
 <span>
 
 </span>
