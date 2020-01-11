@@ -28,7 +28,8 @@
 						th:text="${order.customer.firstname} + ' ' + ${order.customer.lastname}">Firstname
 						Name</td>
 					<td th:text="${order.totalPrice()}">42.0</td>
-					<td><form th:action="'/order/'+${order.orderId}" th:method="delete">
+					<td>
+						<form th:action="'/order/'+${order.orderId}" th:method="delete">
 							<input type="submit" value="delete" class="btn btn-link" />
 						</form></td>
 				</tr>
