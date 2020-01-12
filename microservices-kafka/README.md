@@ -22,11 +22,13 @@ Kafka Brokers, Order-Service, Shipment-service, Invoice-service
 </span>
 <hr/>
 <h4> Start Producer Spring boot project: order-service</h4>
-<h4> Start Consumer Spring boot project:  ----- </h4>
+<h4> Start Consumer Spring boot project: shipping-service </h4>
+<h4> Start Consumer Spring boot project: invoicing-service </h4>
 
 <h4> Send Message</h4>
 <p>Order-Service will send order creation event to the Kafka topic:: order</p>
-<span>
+<h4> Recieve Message</h4>
+<p>Shipping-Service will recieve order creation event from the Kafka topic:: order and store the data to shipping database</p>
+<p>Invoicing-Service will recieve order creation event from the Kafka topic:: order and store data to invoice database</p>
 
-</span>
 <hr/>
