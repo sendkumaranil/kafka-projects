@@ -30,5 +30,12 @@ Kafka Brokers, Order-Service, Shipment-service, Invoice-service
 <h4> Recieve Message</h4>
 <p>Shipping-Service will recieve order creation event from the Kafka topic:: order and store the data to shipping database</p>
 <p>Invoicing-Service will recieve order creation event from the Kafka topic:: order and store data to invoice database</p>
-
+<hr/>
+<h4>Run the order app</h4>
+<p> Run: http://localhost:8181/ </p>
+<p> Add Orders </p>
+<h4>Run the shipping app</h4>
+<p> Run: http://localhost:8282/ </p>
+<h4>Run the Invoice app</h4>
+<p> Run: http://localhost:8383/</p>
 <hr/>
