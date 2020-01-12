@@ -8,7 +8,7 @@ Kafka Brokers, Order-Service, Shipment-service, Invoice-service
       <span>
           > bin/zookeeper-server-start.sh ../config/zookeeper.properties
       </span>
-<hr/>
+<hr style="border: 5px solid blue;border-radius: 5px;" />
 <h4> Start Server:</h4>
 <p>Open new terminal and run below command:</p>
 <span>
